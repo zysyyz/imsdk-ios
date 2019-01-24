@@ -13,13 +13,12 @@ target 'IMSDK-iOS' do
 
   # Pods for IMSDK-iOS
     pod 'QIMSDK', path: './QIMSDK'
-    pod 'QIMUIKit', path: './QIMUIKit'
     pod 'QIMRNKit', path: './QIMRNKit'
-    pod 'QIMPublicRedefineHeader', path: './QIMPublicRedefineHeader'
 
-    pod 'QIMKitVendor', path: './QIMKitVendor'
-    pod 'QIMGeneralModule', path: './QIMGeneralModule'
-    pod 'QIMCommon', path: './QIMCommon'
+    pod 'QIMUIKit'
+    pod 'QIMKitVendor'
+    pod 'QIMGeneralModule'
+    pod 'QIMCommon'
     pod 'QIMCommonCategories'
     pod 'QIMDataBase'
   
